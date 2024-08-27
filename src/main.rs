@@ -14,8 +14,8 @@ fn main(){
         }
 
         match parse_and_calculate(input){
-            Ok(result) => println!("Result: {}", result),
-            Err(error) => println!("Error: {}", error),
+            Ok(result) => println!("Result : {}", result),
+            Err(error) => println!("Error : {}", error),
         }
     }
 }
